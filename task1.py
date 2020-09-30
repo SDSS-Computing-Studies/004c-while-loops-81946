@@ -16,3 +16,16 @@ Example:
 10
 ...
 """
+import time
+import random
+
+count = 2
+
+while True:
+    print(count)
+    delay = random.random() + 1
+    count = count + 2
+    if count > 20:
+        break
+
+print('\n' "Thats 20!")

@@ -15,3 +15,29 @@ outputs:
 Access granted
 Access denied
 """
+
+name= ""
+password= ""
+
+while name != "admin":
+    name = (input("Enter username: ")).strip()
+    if name == "admin":
+        while password != "12345":
+            password = (input("Enter password: ")).strip()
+            if password == "12345":
+                print("Access granted")
+                break
+            else:
+                print("Access denied")
+    
+        
+    
+
+
+
+#name = ""
+
+#while name != "Marvin the Martian":
+   # name = input("Who is your favorite cartoon character?")
+    #if name != "Marvin the Martian":
+      #  print("  You can't be serious.")
