@@ -20,15 +20,23 @@ That is an even integer
 
 """
 import math
+num= ""
+b= ""
+x= ""
 
-while b==x:
-    num= input("Enter a number")
-    q= int(num)
-    b= q/2
-    a= float(num)
-    x= a/2
-    if b==x:
-        print("That is an even integer")
+while num!= True:
+    num= (input("Enter a number: ")).strip()
+    q= float(num)
+    if q.is_integer():
+        if (q % 2)==0:
+            print("That is an even integer")
+            break
+        else:
+            print("That is not an even integer")
     else:
-        print("That is not an even integer")
+        print("That is not an integer")
+
+
+        
+
 
