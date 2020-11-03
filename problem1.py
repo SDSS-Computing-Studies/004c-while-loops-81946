@@ -1,4 +1,5 @@
 ##### Problem 1
+#python3
 """
 Have the user enter a username and password.
 Repeat this until both the username and password match the 
@@ -17,17 +18,24 @@ outputs:
 Access granted
 Access denied
 """
+x=0
+name= ''
+password= ''
+if x !=3:
+    while name != "admin":
+        name = (input("Enter username: ")).strip()
+        if name == "admin":
+            while password != "12345":
+                password = (input("Enter password: ")).strip()
+                if password == "12345":
+                    print("Access granted")
+                    break
+                else:
+                    print("Access denied")
+                    x= x+1
 
-while name != "admin":
-    name = (input("Enter username: ")).strip()
-    if name == "admin":
-        while password != "12345":
-            password = (input("Enter password: ")).strip()
-            if password == "12345":
-                print("Access granted")
-                break
-            else:
-                print("Access denied")
+if x==3:
+    print("You have been permentely blocked")
 
 
 

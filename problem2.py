@@ -15,3 +15,23 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+import math
+
+number= input("Enter a number")
+a= number
+b= number*2
+c= number*3
+d= number*4
+e= number*5
+f= number*6
+g= number*7
+h= number*8
+i= number*9
+j= number*10
+k= number*11
+l= number*12
+print(a b c d e f g h i j k l)
+
+
+
+
