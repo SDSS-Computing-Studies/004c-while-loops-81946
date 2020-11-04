@@ -13,3 +13,17 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+import math
+n=1
+
+def F(n):
+    while n<100: 
+        if n == 0:
+            return 0  
+            if n == 1:
+                return 1  
+            else:
+                return F(n-1) + F(n-2)
+                print(F)
+
+
