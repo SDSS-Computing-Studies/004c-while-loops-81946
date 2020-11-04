@@ -1,4 +1,5 @@
 ##### Problem 1
+#python3
 """
 Have the user enter a username and password.
 Repeat this until both the username and password match the 
@@ -17,6 +18,7 @@ outputs:
 Access granted
 Access denied
 """
+<<<<<<< HEAD
 import math
 name=''
 password= ''
@@ -37,6 +39,26 @@ while name != "admin" and x!=3:
         print("You have no more tried")
            
 
+=======
+x=0
+name= ''
+password= ''
+if x !=3:
+    while name != "admin":
+        name = (input("Enter username: ")).strip()
+        if name == "admin":
+            while password != "12345":
+                password = (input("Enter password: ")).strip()
+                if password == "12345":
+                    print("Access granted")
+                    break
+                else:
+                    print("Access denied")
+                    x= x+1
+
+if x==3:
+    print("You have been permentely blocked")
+>>>>>>> e116aefa7a2f469dbd2913a6f928f0e9718a7b18
 
 
 
