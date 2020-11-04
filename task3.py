@@ -29,10 +29,10 @@ while num!= True:
     q= float(num)
     if q.is_integer():
         if (q % 2)==0:
-            print("That is an even integer")
+            print("That is an even integer.")
             break
         else:
-            print("That is not an even integer")
+            print("That is not an even integer.")
     else:
         print("That is not an integer")
 
