@@ -13,29 +13,16 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
-<<<<<<< HEAD
 import math
-n=1
-
-def F(n):
-    while n<100: 
-        if n == 0:
-            return 0  
-            if n == 1:
-                return 1  
-            else:
-                return F(n-1) + F(n-2)
-                print(F)
-=======
+l=1
 x=1
-a=-1
-while x!<100:
 
-    y=a+1
-    x=x+y
-    print(x)
+while x<100: 
+    
+    x=(l-1)+(l-2)
+    print(l)
+    l=l+1
 
 
->>>>>>> e116aefa7a2f469dbd2913a6f928f0e9718a7b18
 
 

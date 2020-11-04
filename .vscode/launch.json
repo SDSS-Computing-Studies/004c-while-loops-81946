@@ -10,8 +10,6 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
-<<<<<<< HEAD
-=======
         },
         {
             "type": "pwa-chrome",
@@ -19,7 +17,6 @@
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
->>>>>>> e116aefa7a2f469dbd2913a6f928f0e9718a7b18
         }
     ]
 }

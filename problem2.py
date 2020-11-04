@@ -17,13 +17,9 @@ Enter a number: 4
 """
 import math
 
-<<<<<<< HEAD
 
 number= input("Enter number:")
 number= int(number)
-=======
-number= input("Enter a number")
->>>>>>> e116aefa7a2f469dbd2913a6f928f0e9718a7b18
 a= number
 b= number*2
 c= number*3
