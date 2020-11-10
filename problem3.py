@@ -15,20 +15,17 @@ Example:
 """
 import math
 
-#nterms = int(input("How many terms? "))
-
-# first two terms
 n1, n2 = 1, 1
-count = 0
+start = 0
 
 
-while count < 12:
-    print(n1)
-    nth = n1 + n2
-    # update values
+while start < 12:
+    print(n1, end=' ')
+    a = n1 + n2
+
     n1 = n2
-    n2 = nth
-    count += 1
+    n2 = a
+    start += 1
 
 
 
