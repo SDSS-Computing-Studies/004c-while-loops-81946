@@ -32,13 +32,5 @@ i= number*9
 j= number*10
 k= number*11
 l= number*12
-<<<<<<< HEAD
 
 print(a, b, c, d, e, f, g, h, i, j, k, l)
-=======
-print(a b c d e f g h i j k l)
-
-
-
-
->>>>>>> e116aefa7a2f469dbd2913a6f928f0e9718a7b18

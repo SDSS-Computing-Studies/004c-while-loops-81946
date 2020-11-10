@@ -34,7 +34,7 @@ while num!= True:
         else:
             print("That is not an even integer.")
     else:
-        print("That is not an integer")
+        print("That is not an even integer")
 
 
         
