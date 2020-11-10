@@ -23,19 +23,17 @@ name=''
 password= ''
 x=0
 
-while name != "admin" and x!=3:
+while name != "admin" and x!=3 and password != "12345":
     name = (input("Enter username: ")).strip()
-    if name == "admin":
-        while password != "12345" and x!=3:
-            password = (input("Enter password: ")).strip()
-            if password == "12345":
-                print("Access granted")
-                break
-            else:
-                print("Access denied")
-                x=x+1
+    password = (input("Enter password: ")).strip()
+    if password == "12345" and name == "admin":
+        print("Access granted")
+        break
+    else:
+        print("Access denied")
+        x=x+1
     if x==3:
-        print("You have no more tried")
+        print("You have no more tries")
            
 
 

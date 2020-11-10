@@ -18,7 +18,6 @@ l=1
 x=1
 
 while x<100: 
-    
     x=(l-1)+(l-2)
     print(l)
     l=l+1
